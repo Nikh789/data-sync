@@ -1,25 +1,454 @@
 {
-  "employees": [
-    {
-      "id": 1,
-      "first_name": "Sebastian",
-      "last_name": "Eschweiler",
-      "email": "sebastian@codingthesmartway.com",
-      "designation": "SE"
-    },
-    {
-      "id": 2,
-      "first_name": "Steve",
-      "last_name": "Palmer",
-      "email": "steve@codingthesmartway.com",
-      "designation": "PO"
-    },
-    {
-      "id": 3,
-      "first_name": "Ann",
-      "last_name": "Smith",
-      "email": "ann@codingthesmartway.com",
-      "designation": "QA"
-    }
-  ]
+    "Employee Details": [
+        {
+            "Full Name": "Sheeree Godmar",
+            "Phone Number": "(555) 339-3967",
+            "Email Address": "iloache38@photobucket.com",
+            "Job Title": "Infrastructure Engineer",
+            "Company": "Goldman Sachs Group",
+            "Status": "TRUE",
+            "Rating": "⭐️"
+        },
+        {
+            "Full Name": "Josie Rubery",
+            "Phone Number": "(555) 167-4764",
+            "Email Address": "groddie12@icio.us",
+            "Job Title": "Fraud Investigator",
+            "Company": "United Airlines",
+            "Status": "FALSE",
+            "Rating": "⭐️⭐️"
+        },
+        {
+            "Full Name": "Smith Kaminski",
+            "Phone Number": "(555) 996-5641",
+            "Email Address": "idrains4u@google.com.hk",
+            "Job Title": "Accountant",
+            "Company": "Johnson & Johnson",
+            "Status": "TRUE",
+            "Rating": "⭐️⭐️⭐️"
+        },
+        {
+            "Full Name": "Luke Sambiedge",
+            "Phone Number": "(555) 538-7665",
+            "Email Address": "svanine@flavors.me",
+            "Job Title": "Inbound SDR",
+            "Company": "PepsiCo",
+            "Status": "TRUE",
+            "Rating": "⭐️⭐️"
+        },
+        {
+            "Full Name": "Neda Ciani",
+            "Phone Number": "(555) 856-2597",
+            "Email Address": "amelley65@rambler.ru",
+            "Job Title": "CFO",
+            "Company": "Salesforce",
+            "Status": "FALSE",
+            "Rating": "⭐️⭐️"
+        },
+        {
+            "Full Name": "Rodd Halsted",
+            "Phone Number": "(555) 354-2067",
+            "Email Address": "ssiddons10@sfgate.com",
+            "Job Title": "Software Engineer",
+            "Company": "AT&T",
+            "Status": "FALSE",
+            "Rating": "⭐️⭐️⭐️"
+        },
+        {
+            "Full Name": "Keane Johanning",
+            "Phone Number": "(555) 570-8061",
+            "Email Address": "ghatherell4j@linkedin.com",
+            "Job Title": "CTO",
+            "Company": "Square",
+            "Status": "TRUE",
+            "Rating": "⭐️⭐️⭐️⭐️"
+        },
+        {
+            "Full Name": "Vivie Aery",
+            "Phone Number": "(555) 773-1271",
+            "Email Address": "sbrito2q@posterous.com",
+            "Job Title": "Fullstack Engineer",
+            "Company": "Palentir Technologies",
+            "Status": "FALSE",
+            "Rating": "⭐️⭐️⭐️⭐️⭐️"
+        },
+        {
+            "Full Name": "Sheeree Godmar",
+            "Phone Number": "(555) 877-7885",
+            "Email Address": "mcassell7@japanpost.jp",
+            "Job Title": "Database Manager",
+            "Company": "Brex",
+            "Status": "TRUE",
+            "Rating": "⭐️"
+        },
+        {
+            "Full Name": "Josie Rubery",
+            "Phone Number": "(555) 194-2769",
+            "Email Address": "rcodner0@berkeley.edu",
+            "Job Title": "CMO",
+            "Company": "Microsoft",
+            "Status": "FALSE",
+            "Rating": "⭐️⭐️"
+        },
+        {
+            "Full Name": "Smith Kaminski",
+            "Phone Number": "(555) 912-3642",
+            "Email Address": "chattersley48@about.com",
+            "Job Title": "Internal Tools Lead",
+            "Company": "Costco Wholesale",
+            "Status": "TRUE",
+            "Rating": "⭐️⭐️⭐️"
+        },
+        {
+            "Full Name": "Luke Sambiedge",
+            "Phone Number": "(555) 983-5042",
+            "Email Address": "sbrizell2f@myspace.com",
+            "Job Title": "DevOps Engineer",
+            "Company": "Johnson & Johnson",
+            "Status": "TRUE",
+            "Rating": "⭐️⭐️"
+        },
+        {
+            "Full Name": "Sheeree Godmar",
+            "Phone Number": "(555) 994-4951",
+            "Email Address": "elauks15@vkontakte.ru",
+            "Job Title": "Internal Tools Lead",
+            "Company": "Goldman Sachs Group",
+            "Status": "TRUE",
+            "Rating": "⭐️"
+        },
+        {
+            "Full Name": "Josie Rubery",
+            "Phone Number": "(555) 738-8533",
+            "Email Address": "lkenafaque2o@utexas.edu",
+            "Job Title": "Outbound SDR",
+            "Company": "Walmart",
+            "Status": "FALSE",
+            "Rating": "⭐️⭐️"
+        },
+        {
+            "Full Name": "Sheeree Godmar",
+            "Phone Number": "(555) 132-5740",
+            "Email Address": "ssambiedgen@europa.eu",
+            "Job Title": "Frontend Engineer",
+            "Company": "Morgan Stanley",
+            "Status": "TRUE",
+            "Rating": "⭐️"
+        },
+        {
+            "Full Name": "Josie Rubery",
+            "Phone Number": "(555) 639-5776",
+            "Email Address": "radamik2b@hubpages.com",
+            "Job Title": "Engineering Manager",
+            "Company": "Wells Fargo",
+            "Status": "FALSE",
+            "Rating": "⭐️⭐️"
+        },
+        {
+            "Full Name": "Smith Kaminski",
+            "Phone Number": "(555) 564-3021",
+            "Email Address": "mtomkin5g@4shared.com",
+            "Job Title": "Accountant",
+            "Company": "Berkshire Hathaway",
+            "Status": "TRUE",
+            "Rating": "⭐️⭐️⭐️"
+        },
+        {
+            "Full Name": "Luke Sambiedge",
+            "Phone Number": "(555) 375-1324",
+            "Email Address": "aspata6c@redcross.org",
+            "Job Title": "Backend Engineer",
+            "Company": "Nationwide",
+            "Status": "TRUE",
+            "Rating": "⭐️⭐️"
+        },
+        {
+            "Full Name": "Neda Ciani",
+            "Phone Number": "(555) 697-1354",
+            "Email Address": "eupward4x@php.net",
+            "Job Title": "Solutions Architect",
+            "Company": "CVS Health",
+            "Status": "FALSE",
+            "Rating": "⭐️⭐️"
+        },
+        {
+            "Full Name": "Sheeree Godmar",
+            "Phone Number": "(555) 539-6424",
+            "Email Address": "tborth5b@zimbio.com",
+            "Job Title": "Sales Team Lead",
+            "Company": "UnitedHealth Group",
+            "Status": "TRUE",
+            "Rating": "⭐️"
+        },
+        {
+            "Full Name": "Josie Rubery",
+            "Phone Number": "(555) 532-1030",
+            "Email Address": "rhaddow52@pen.io",
+            "Job Title": "Sales Team Lead",
+            "Company": "Target",
+            "Status": "FALSE",
+            "Rating": "⭐️⭐️"
+        },
+        {
+            "Full Name": "Smith Kaminski",
+            "Phone Number": "(555) 480-7815",
+            "Email Address": "gfraschetti54@independent.co.uk",
+            "Job Title": "Outbound BDR",
+            "Company": "Allstate",
+            "Status": "TRUE",
+            "Rating": "⭐️⭐️⭐️"
+        },
+        {
+            "Full Name": "Luke Sambiedge",
+            "Phone Number": "(555) 276-1176",
+            "Email Address": "hmanketell1n@cbslocal.com",
+            "Job Title": "Inbound BDR",
+            "Company": "Microsoft",
+            "Status": "TRUE",
+            "Rating": "⭐️⭐️"
+        },
+        {
+            "Full Name": "Neda Ciani",
+            "Phone Number": "(555) 300-2100",
+            "Email Address": "lboddamc@friendfeed.com",
+            "Job Title": "Database Manager",
+            "Company": "Progressive",
+            "Status": "FALSE",
+            "Rating": "⭐️⭐️"
+        },
+        {
+            "Full Name": "Rodd Halsted",
+            "Phone Number": "(555) 946-2080",
+            "Email Address": "dleavy2i@qq.com",
+            "Job Title": "Data Analyst",
+            "Company": "Dropbox",
+            "Status": "FALSE",
+            "Rating": "⭐️⭐️⭐️"
+        },
+        {
+            "Full Name": "Sheeree Godmar",
+            "Phone Number": "(555) 675-1430",
+            "Email Address": "rcodner0@berkeley.edu",
+            "Job Title": "Frontend Engineer",
+            "Company": "Ford Motor",
+            "Status": "TRUE",
+            "Rating": "⭐️"
+        },
+        {
+            "Full Name": "Josie Rubery",
+            "Phone Number": "(555) 423-2597",
+            "Email Address": "nbransomh@chicagotribune.com",
+            "Job Title": "Outbound BDR",
+            "Company": "Kroger",
+            "Status": "FALSE",
+            "Rating": "⭐️⭐️"
+        },
+        {
+            "Full Name": "Smith Kaminski",
+            "Phone Number": "(555) 863-6469",
+            "Email Address": "vhefforde46@fc2.com",
+            "Job Title": "Product Manager",
+            "Company": "General Motors",
+            "Status": "TRUE",
+            "Rating": "⭐️⭐️⭐️"
+        },
+        {
+            "Full Name": "Luke Sambiedge",
+            "Phone Number": "(555) 617-8013",
+            "Email Address": "dkentwell1h@tmall.com",
+            "Job Title": "Fullstack Engineer",
+            "Company": "Comcast",
+            "Status": "TRUE",
+            "Rating": "⭐️⭐️"
+        },
+        {
+            "Full Name": "Neda Ciani",
+            "Phone Number": "(555) 905-6503",
+            "Email Address": "mguyi@imdb.com",
+            "Job Title": "Engineering Manager",
+            "Company": "Gamestop",
+            "Status": "FALSE",
+            "Rating": "⭐️⭐️"
+        },
+        {
+            "Full Name": "Rodd Halsted",
+            "Phone Number": "(555) 615-6871",
+            "Email Address": "skaminski5i@ifeng.com",
+            "Job Title": "CMO",
+            "Company": "State Farm Insurance",
+            "Status": "FALSE",
+            "Rating": "⭐️⭐️⭐️"
+        },
+        {
+            "Full Name": "Keane Johanning",
+            "Phone Number": "(555) 290-9826",
+            "Email Address": "danten3q@bbc.co.uk",
+            "Job Title": "Inbound SDR",
+            "Company": "Valero Energy",
+            "Status": "TRUE",
+            "Rating": "⭐️⭐️⭐️⭐️"
+        },
+        {
+            "Full Name": "Vivie Aery",
+            "Phone Number": "(555) 704-9059",
+            "Email Address": "prawlingson5m@imgur.com",
+            "Job Title": "Solutions Architect",
+            "Company": "MetLife",
+            "Status": "FALSE",
+            "Rating": "⭐️⭐️⭐️⭐️⭐️"
+        },
+        {
+            "Full Name": "Sheeree Godmar",
+            "Phone Number": "(555) 933-6712",
+            "Email Address": "ccornish6r@arstechnica.com",
+            "Job Title": "COO",
+            "Company": "American Express",
+            "Status": "TRUE",
+            "Rating": "⭐️"
+        },
+        {
+            "Full Name": "Josie Rubery",
+            "Phone Number": "(555) 603-7234",
+            "Email Address": "gwerner4h@so-net.ne.jp",
+            "Job Title": "CTO",
+            "Company": "Best Buy",
+            "Status": "FALSE",
+            "Rating": "⭐️⭐️"
+        },
+        {
+            "Full Name": "Smith Kaminski",
+            "Phone Number": "(555) 591-5680",
+            "Email Address": "greasce39@people.com.cn",
+            "Job Title": "Founder",
+            "Company": "UPS",
+            "Status": "TRUE",
+            "Rating": "⭐️⭐️⭐️"
+        },
+        {
+            "Full Name": "Luke Sambiedge",
+            "Phone Number": "(555) 985-4596",
+            "Email Address": "uduquesnay4m@opensource.org",
+            "Job Title": "Outbound BDR",
+            "Company": "Dell Technologies",
+            "Status": "TRUE",
+            "Rating": "⭐️⭐️"
+        },
+        {
+            "Full Name": "Neda Ciani",
+            "Phone Number": "(555) 806-8293",
+            "Email Address": "nwhitsey6j@wufoo.com",
+            "Job Title": "Sales Engineer",
+            "Company": "Pfizer",
+            "Status": "FALSE",
+            "Rating": "⭐️⭐️"
+        },
+        {
+            "Full Name": "Rodd Halsted",
+            "Phone Number": "(555) 902-2390",
+            "Email Address": "pleverage1z@salon.com",
+            "Job Title": "CTO",
+            "Company": "Brex",
+            "Status": "FALSE",
+            "Rating": "⭐️⭐️⭐️"
+        },
+        {
+            "Full Name": "Keane Johanning",
+            "Phone Number": "(555) 889-2376",
+            "Email Address": "hmasarrat3z@csmonitor.com",
+            "Job Title": "CFO",
+            "Company": "Chevron",
+            "Status": "TRUE",
+            "Rating": "⭐️⭐️⭐️⭐️"
+        },
+        {
+            "Full Name": "Vivie Aery",
+            "Phone Number": "(555) 762-3009",
+            "Email Address": "ssambiedgen@europa.eu",
+            "Job Title": "Product Marketing Specialist",
+            "Company": "Amazon",
+            "Status": "FALSE",
+            "Rating": "⭐️⭐️⭐️⭐️⭐️"
+        },
+        {
+            "Full Name": "Sheeree Godmar",
+            "Phone Number": "(555) 427-3715",
+            "Email Address": "amelley65@rambler.ru",
+            "Job Title": "Frontend Engineer",
+            "Company": "HP",
+            "Status": "TRUE",
+            "Rating": "⭐️"
+        },
+        {
+            "Full Name": "Josie Rubery",
+            "Phone Number": "(555) 847-9892",
+            "Email Address": "amatissoffg@epa.gov",
+            "Job Title": "CMO",
+            "Company": "United Airlines",
+            "Status": "FALSE",
+            "Rating": "⭐️⭐️"
+        },
+        {
+            "Full Name": "Smith Kaminski",
+            "Phone Number": "(555) 982-1400",
+            "Email Address": "nbransomh@chicagotribune.com",
+            "Job Title": "Sales Engineer",
+            "Company": "Oracle",
+            "Status": "TRUE",
+            "Rating": "⭐️⭐️⭐️"
+        },
+        {
+            "Full Name": "Luke Sambiedge",
+            "Phone Number": "(555) 259-3202",
+            "Email Address": "cbrabham3p@a8.net",
+            "Job Title": "CMO",
+            "Company": "United Airlines",
+            "Status": "TRUE",
+            "Rating": "⭐️⭐️"
+        },
+        {
+            "Full Name": "Neda Ciani",
+            "Phone Number": "(555) 737-7071",
+            "Email Address": "etexton2d@stanford.edu",
+            "Job Title": "Fullstack Engineer",
+            "Company": "Segment",
+            "Status": "FALSE",
+            "Rating": "⭐️⭐️"
+        },
+        {
+            "Full Name": "Rodd Halsted",
+            "Phone Number": "(555) 688-3668",
+            "Email Address": "aspata6c@redcross.org",
+            "Job Title": "IT Manager",
+            "Company": "Amazon",
+            "Status": "FALSE",
+            "Rating": "⭐️⭐️⭐️"
+        },
+        {
+            "Full Name": "Keane Johanning",
+            "Phone Number": "(555) 114-5076",
+            "Email Address": "efeldheim44@utexas.edu",
+            "Job Title": "Fraud Investigator",
+            "Company": "Nationwide",
+            "Status": "TRUE",
+            "Rating": "⭐️⭐️⭐️⭐️"
+        },
+        {
+            "Full Name": "Sheeree Godmar",
+            "Phone Number": "(555) 720-5043",
+            "Email Address": "cfoale16@oracle.com",
+            "Job Title": "Outbound SDR",
+            "Company": "Johnson & Johnson",
+            "Status": "TRUE",
+            "Rating": "⭐️"
+        },
+        {
+            "Full Name": "Josie Rubery",
+            "Phone Number": "(555) 953-3784",
+            "Email Address": "sberryann4q@ebay.co.uk",
+            "Job Title": "CTO",
+            "Company": "Progressive",
+            "Status": "FALSE",
+            "Rating": "⭐️⭐️"
+        }
+    ]
 }
