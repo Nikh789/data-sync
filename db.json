@@ -1,4 +1,4 @@
-[
+{
  {
    "A": "InvoiceNo",
    "B": "StockCode",
@@ -191,4 +191,4 @@
    "I": "Clothing",
    "J": "Stole"
  }
-]
+}
